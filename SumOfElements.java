@@ -5,10 +5,10 @@ public class SumOfElements {
         int sumOfEvens = 0;
         for(int i = 0; i < arraylength; i++){
             if(i%2 == 1){
-                sumOfOdds =+ i;
+                sumOfOdds =+ elementList[i];
             }
             else{
-                sumOfEvens =+ i;
+                sumOfEvens =+ elementList[i];
             }
         }
         return "Summ of odd numbered indexes is: " + sumOfOdds +" \nSum of even numbered indexes is: " + sumOfEvens;
